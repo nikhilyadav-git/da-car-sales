@@ -11,6 +11,9 @@ conda deactivate
 * notebook extensions
 ```console
 conda install -c conda-forge jupyter_contrib_nbextensions
+conda install -c conda-forge jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
 ```
 * launch notebook
 ```console
